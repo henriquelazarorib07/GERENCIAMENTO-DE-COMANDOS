@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #f0f0f0;
+    overflow-y: auto;
+}
+button{
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+}
+.btn-add{
+    background-color: blue;
+    transition: all 0,1s;
+
+}
+.btn-atualizar{
+    background-color: rgb(91, 168, 14); 
+}
+.btn-add:hover{
+    background-color: rgb(101, 189, 14);
+}
+
+.btn-atualizar:hover{
+    background-color: rgb(51, 87, 16); 
+}
+.btn-remover{
+    background-color: red;
+    transition: 0.1s;
+}
+.btn-remover:hover{
+    background-color: rgb(87, 3, 3);
+    
+}
+.acoes-pedido  {
+    margin-bottom: 10px;
+}
+.acoes-pedido button  {
+    margin-bottom: 5px;
+}
+#nao-existe{
+    color: rgb(255, 42, 42);
+    justify-self: center;
+    align-self: center;
+    margin: 15px 0;
+}
+.gerenciamentos-pedidos{
+    background-color: #f0f0f0;
+    padding: 20px;
+    max-width: 600px;
+    margin: 50px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+}
+.titiulo-gerenciado{
+    font-size: 28px;
+    color: #555;
+    text-align: center;
+}
+.subtitiulo-pedidos{
+    font-size: 22px;
+    color: #555;
+    margin-bottom: 15px;
+}
+.formulario{
+    margin: 15 0 px;
+}
+.formulario label{
+    margin-bottom: 5px;
+    display: block;
+    color:#555
+}
+.formulario input{
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+
+}
+.pedidos{
+    margin-top: 30px;
+    position: relative;
+    display: grid;
+}
+#lista-pedidos{
+    list-style:none;
+    padding: 0;
+}
+#lista-pedidos li{
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
