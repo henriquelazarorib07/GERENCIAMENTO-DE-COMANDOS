@@ -51,10 +51,11 @@ button{
     margin-bottom: 5px;
 }
 #nao-existe{
-    color: rgb(255, 42, 42);
-    justify-self: center;
-    align-self: center;
-    margin: 15px 0;
+    color: rgb(102, 3, 3);
+    text-align: center;
+    display:block ;
+    width: 100%;
+
 }
 .gerenciamentos-pedidos{
     background-color: #f0f0f0;
